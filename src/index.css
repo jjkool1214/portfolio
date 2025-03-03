@@ -8,6 +8,7 @@
     --color-blue-003: #269be5;
     --font-main: "Proxima Nova", "Helvetica Neue", "sans-serif";
 }
+
 .button {
     text-align: center;
     border-color: var(--color-blue-001);
@@ -28,4 +29,19 @@
 
 .drop-shadow{
     box-shadow: 10px 11px 31px 7px var(--color-blue-002);
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+#html{
+    height: 100vh;
+    width: 100vw;
+}
+
+#body{
+    height: 100%;
+    width: 100%;
 }

@@ -7,7 +7,7 @@ import Resume from "./pages/Resume.jsx";
 function App() {
 
   return (
-    <div className={"bg-background fill-background h-[100vw] "}>
+    <div className={"bg-background fill-background h-[100%] "}>
 
         <BrowserRouter>
             <NavBar></NavBar>
