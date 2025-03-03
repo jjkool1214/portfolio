@@ -4,13 +4,13 @@ export default function NavBar (props){
     return (
         <div className="title">
             <div id={"title-container"} className={"flex justify-center"}>
-                <u className={"text-white-001"}><h1 className={"text-[72px] text-white-001"}>Portfolio</h1></u>
+                <h1 className={"text-[72px] text-white-001 pt-2"}>Portfolio</h1>
             </div>
             <nav className="nav-bar">
-                <div id={"nav-container"} className={"flex flex-row justify-around align-items-center"}>
-                    <button type={"button"} className={"button"}><Link to="/" className={"text-xl"}>david</Link></button>
-                    <button type={"button"} className={"button"}><Link to="/Projects">icecream</Link></button>
-                    <button type={"button"} className={"button"}><Link to="/Resume">Resume</Link></button>
+                <div id={"nav-container"} className={"flex flex-row justify-center space-x-20 align-items-center"}>
+                    <Link to="/" className={"text-4xl underline text-white-001 hover:text-blue-002 "}>About Me</Link>
+                    <Link to="/Projects" className={"text-4xl underline text-white-001 hover:text-blue-002"}>Projects</Link>
+                    <Link to="/Resume" className={"text-4xl underline text-white-001 hover:text-blue-002"}>Resume</Link>
                 </div>
             </nav>
         </div>

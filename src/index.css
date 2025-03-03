@@ -11,6 +11,7 @@
 .button {
     text-align: center;
     border-color: var(--color-blue-001);
+    font-weight: bold;
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
@@ -18,8 +19,13 @@
     color: var(--color-blue-002);
     padding: 16px;
     row-gap: 16px;
+    font-size: 24px;
 }
 .button:hover {
     background-color: var(--color-blue-003);
     color: var(--color-white-001)
+}
+
+.drop-shadow{
+    box-shadow: 10px 11px 31px 7px var(--color-blue-002);
 }
