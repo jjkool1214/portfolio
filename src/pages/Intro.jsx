@@ -9,7 +9,7 @@ export default function Intro(){
                     I am studying in the Software Engineering BS program and am so grateful for the opportunity to attend college.{"\n"}
                      I love programming and engineering, as the process of creating or working on something has always been on my mind, and
                     I truly have a lot of passion for creation. {"\n"} I have experience working in teams in both in-class scenarios and competitions,
-                    such as hackathons. I have worked on front-end development with React and back-end development with Java Spring boot.</p>
+                    such as hackathons. I have worked on front-end development with React and back-end development with Java Spring boot. I'm always excited to learn and am ready to work!</p>
                 </div>
                 <div className="flex flex-wrap justify-center drop-shadow pe-3">
                     <img className={"img-fluid border-4 shadow-blue-002 object-cover max-w-[100%] max-h-[100%]"} src={"src/assets/photos/headshot.jpg"} alt="headshot"/>
